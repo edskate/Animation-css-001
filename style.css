@@ -18,8 +18,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   color: white;
   font-family: 'Raleway';
   font-size: 2.5rem;
@@ -30,6 +30,7 @@ body {
   background: #1D1F20;
   position: relative;
   border-radius: var(--borderWidth);
+  box-shadow: inset 20px 20px 30px  #000;
 }
 
 .gradient-border:after {
@@ -46,17 +47,7 @@ body {
   background-size: 300% 300%;
 }
 
-
-@keyframes animatedgradient {
-  0% {
-    background-position: 100% 50%;
-  }
-
-  50% {
-    background-position: 100% 60%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+h1{
+  color: #07b39b;
+  text-shadow: -10px 10px 10px #000;
 }

@@ -3,16 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Edy</title>
     <link rel="stylesheet" href="style.css">
+ <style>
+    .image {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-10px 0 0 -410px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 50s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+ </style>
 
 </head>
 <body>
-  
-    <div class="gradient-border" id="box">Animated <br>CSS<br>Gradient Border     Open Sourcer.
-        Ola Mumdo.
+
+    <div class="gradient-border" id="box">Animated <br>CSS<br>Gradient Border     Open Sourcer
         </div>
-     
-        <a href="box.html"><h2>Bathrooms</h2></a>  
+     <h1></h1>
+     <p></p>
+     <script> 
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(' : ' + p1.innerText)
+        p1.style.color = 'green'
+        var d = window.document.getElementById('box')
+        d.style.color = 'yellow'
+     </script>
+     <br>
+     <script src="index.js"></script>
+        <a href="box.html"><h2></h2></a> <!--Link ancora de Página--> 
+
+
+<img class="image" src="https://cdn1.iconfinder.com/data/icons/characters-23/256/character_builder___pose_boy_man_confident_posture_hands_crossed.png" alt="" width="120" height="120">
+<div>
+    <figure>
+<img src="https://cdn1.iconfinder.com/data/icons/metaversy-metaverse-3d-object/256/4._Metaverse_Glasses3.png" alt="">
+<figcaption><h1>Technology 2024.🌏</h1></figcaption>
+    </figure>
+
+</div>
     </body>
-</html>
+        </html>

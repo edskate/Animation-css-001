@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>|Questions</h1>
+    <p>O código em uma javascript:URL é avaliado como uma expressão, e o resultado ─ se não for undefined─ é usado (como uma string), como a URL do link neste caso. Mas aqui, a expressão de atribuição produz a string 'green', que não deveria ser um endereço de link; portanto, o voidoperador é necessário para descartar essa string, para que o navegador não saia da página quando o link for clicado.</p>
+    <script src="app.js"></script>
+    
+    <a href="javascript:void(document.body.style.backgroundColor='green');">
+        Click here for green background
+      </a>
+</body>
+</html>
